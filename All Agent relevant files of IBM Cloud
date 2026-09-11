@@ -1,0 +1,40 @@
+# IBM Cloud and IBM Granite Integration
+
+## IBM Services Used
+
+This project uses IBM Granite through IBM watsonx.ai as the primary AI model.
+
+IBM Cloud Code Engine is used for application deployment.
+
+## IBM Granite
+
+IBM Granite is responsible for:
+
+- Understanding user travel requirements
+- Generating personalized itineraries
+- Providing travel recommendations
+- Generating travel tips
+- Answering travel-related questions
+- Modifying existing itineraries
+
+## IBM watsonx.ai
+
+The backend connects to IBM watsonx.ai using the IBM Cloud API credentials and project ID.
+
+The Granite model is configured using:
+
+GRANITE_MODEL_ID
+
+## IBM Cloud Code Engine
+
+The FastAPI backend can be deployed using IBM Cloud Code Engine.
+
+## Security
+
+API keys and credentials are stored in environment variables.
+
+No credentials are committed to GitHub.
+
+## Demo Mode
+
+The application supports DEMO_MODE for demonstrations when IBM Cloud credentials are unavailable.

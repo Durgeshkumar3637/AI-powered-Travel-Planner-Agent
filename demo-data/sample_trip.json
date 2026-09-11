@@ -1,0 +1,98 @@
+{
+  "trip_request": {
+    "origin": "Delhi",
+    "destination": "Goa",
+    "start_date": "2026-10-10",
+    "end_date": "2026-10-14",
+    "travellers": 2,
+    "budget": 40000,
+    "currency": "INR",
+    "travel_style": "Couple",
+    "interests": ["Beaches", "Food", "Sightseeing"],
+    "preferences": "Relaxed trip"
+  },
+  "days": 5,
+  "plan": {
+    "trip_summary": "A relaxed 5-day Goa trip for two people, focused on beaches, local food and sightseeing while staying within your ₹40,000 budget.",
+    "estimated_budget": {
+      "transportation": 10000,
+      "accommodation": 12000,
+      "food": 7000,
+      "activities": 4000,
+      "local_transport": 3000,
+      "miscellaneous": 2000,
+      "total": 38000
+    },
+    "itinerary": [
+      {
+        "day": 1,
+        "title": "Arrival and Beach Relaxation",
+        "activities": [
+          { "time": "10:00 AM", "activity": "Hotel Check-in", "location": "Goa", "estimated_cost": 0 },
+          { "time": "1:00 PM", "activity": "Lunch at a beach shack", "location": "Baga Beach", "estimated_cost": 800 },
+          { "time": "4:00 PM", "activity": "Visit Baga Beach", "location": "Baga Beach", "estimated_cost": 500 },
+          { "time": "7:30 PM", "activity": "Dinner", "location": "Calangute", "estimated_cost": 900 }
+        ]
+      },
+      {
+        "day": 2,
+        "title": "North Goa Sightseeing",
+        "activities": [
+          { "time": "9:00 AM", "activity": "Breakfast", "location": "Hotel", "estimated_cost": 300 },
+          { "time": "10:00 AM", "activity": "Fort Aguada", "location": "Sinquerim", "estimated_cost": 300 },
+          { "time": "1:00 PM", "activity": "Lunch", "location": "Calangute", "estimated_cost": 700 },
+          { "time": "3:00 PM", "activity": "Calangute Beach", "location": "Calangute", "estimated_cost": 0 },
+          { "time": "7:00 PM", "activity": "Local Market", "location": "Mapusa", "estimated_cost": 400 }
+        ]
+      },
+      {
+        "day": 3,
+        "title": "Old Goa & Culture",
+        "activities": [
+          { "time": "9:00 AM", "activity": "Breakfast", "location": "Hotel", "estimated_cost": 300 },
+          { "time": "10:30 AM", "activity": "Basilica of Bom Jesus", "location": "Old Goa", "estimated_cost": 200 },
+          { "time": "1:00 PM", "activity": "Lunch", "location": "Panaji", "estimated_cost": 700 },
+          { "time": "3:30 PM", "activity": "Fontainhas Latin Quarter walk", "location": "Panaji", "estimated_cost": 0 },
+          { "time": "7:30 PM", "activity": "Dinner by the Mandovi River", "location": "Panaji", "estimated_cost": 1000 }
+        ]
+      },
+      {
+        "day": 4,
+        "title": "South Goa Leisure",
+        "activities": [
+          { "time": "9:00 AM", "activity": "Breakfast", "location": "Hotel", "estimated_cost": 300 },
+          { "time": "11:00 AM", "activity": "Palolem Beach", "location": "South Goa", "estimated_cost": 600 },
+          { "time": "1:30 PM", "activity": "Lunch", "location": "Palolem", "estimated_cost": 600 },
+          { "time": "4:30 PM", "activity": "Dolphin spotting boat ride", "location": "Palolem", "estimated_cost": 1500 }
+        ]
+      },
+      {
+        "day": 5,
+        "title": "Departure",
+        "activities": [
+          { "time": "9:00 AM", "activity": "Breakfast and checkout", "location": "Hotel", "estimated_cost": 300 },
+          { "time": "11:00 AM", "activity": "Souvenir shopping", "location": "Panaji", "estimated_cost": 500 },
+          { "time": "3:00 PM", "activity": "Depart for Delhi", "location": "Goa Airport", "estimated_cost": 0 }
+        ]
+      }
+    ],
+    "accommodation": [
+      { "name": "Budget Guesthouse, Calangute", "type": "Budget", "estimated_price_per_night": 2000, "location": "Calangute", "why": "Walking distance from the beach and affordable." },
+      { "name": "Standard Beach Hotel, Baga", "type": "Standard", "estimated_price_per_night": 3500, "location": "Baga", "why": "Comfortable stay close to restaurants and nightlife." },
+      { "name": "Premium Beach Resort, Candolim", "type": "Premium", "estimated_price_per_night": 7000, "location": "Candolim", "why": "Sea-facing rooms and great amenities for a couple's trip." }
+    ],
+    "transportation": [
+      { "mode": "Train", "description": "Budget-friendly overnight option from Delhi", "estimated_cost": 5000 },
+      { "mode": "Flight", "description": "Faster option from Delhi (2.5 hours)", "estimated_cost": 9000 },
+      { "mode": "Local Transport", "description": "Rental scooter / taxi / bus in Goa", "estimated_cost": 3000 }
+    ],
+    "tips": [
+      "Carry sunscreen.",
+      "Keep some cash for local transport.",
+      "Check attraction timings before visiting.",
+      "Carry comfortable footwear.",
+      "Keep emergency contact information available.",
+      "Book popular beach shacks in advance during peak season."
+    ]
+  }
+}

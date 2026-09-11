@@ -1,0 +1,23 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DEMO_MODE=${DEMO_MODE:-true}
+      - IBM_CLOUD_API_KEY=${IBM_CLOUD_API_KEY:-}
+      - WATSONX_PROJECT_ID=${WATSONX_PROJECT_ID:-}
+      - WATSONX_URL=${WATSONX_URL:-https://us-south.ml.cloud.ibm.com}
+      - GRANITE_MODEL_ID=${GRANITE_MODEL_ID:-ibm/granite-3-3-8b-instruct}
+      - WEATHER_API_KEY=${WEATHER_API_KEY:-}
+      - FRONTEND_URL=${FRONTEND_URL:-http://localhost:5173}
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: ${VITE_API_URL:-http://localhost:8000}
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
